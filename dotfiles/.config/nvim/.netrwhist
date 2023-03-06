@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/Users/vanities/git/work/backend/firebase/functions/src/utils'
+let g:netrw_dirhist_1='/Users/vanities/git/work/backend/firebase/functions/src'
+let g:netrw_dirhist_0='/Users/vanities/git/work/backend/firebase/functions/src/http'
+let g:netrw_dirhist_9='/Users/vanities/git/work/backend/firebase/functions/src/http/tasks'
+let g:netrw_dirhist_8='/Users/vanities/git/work/backend/firebase/functions/src/http/tasks/on_call'
+let g:netrw_dirhist_7='/Users/vanities/git/work/backend/firebase/functions/src/http/tasks'
+let g:netrw_dirhist_6='/Users/vanities/git/work/backend/firebase/functions/src/http'
+let g:netrw_dirhist_5='/Users/vanities/git/work/backend/firebase/functions/src'
+let g:netrw_dirhist_4='/Users/vanities/git/work/backend/firebase/functions/src/storage'
+let g:netrw_dirhist_3='/Users/vanities/git/work/backend/firebase/functions/src/storage/tasks'

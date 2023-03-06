@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/Users/vanities/.config'
+let g:netrw_dirhist_8='/Users/vanities/.config/nvim'
+let g:netrw_dirhist_7='/Users/vanities/.config/nvim/undodir'
+let g:netrw_dirhist_6='/Users/vanities/.config/nvim'
+let g:netrw_dirhist_5='/Users/vanities/.config'
+let g:netrw_dirhist_4='/Users/vanities'
+let g:netrw_dirhist_3='/Users/vanities/.zsh_sessions'
+let g:netrw_dirhist_2='/Users/vanities'
+let g:netrw_dirhist_1='/Users/vanities/.local'
+let g:netrw_dirhist_0='/Users/vanities/.local/share'

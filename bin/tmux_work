@@ -1,0 +1,22 @@
+#!/bin/bash
+SESSION=work
+
+tmux -2 new-session -d -s $SESSION
+
+tmux new-window -t $SESSION:0 -n 'work'
+tmux send-keys "cd ~/git/work" C-m
+
+tmux new-window -t $session:1 -n 'backend'
+tmux send-keys "cd ~/git/work/open3/open3-admin/" c-m
+
+tmux new-window -t $session:2 -n 'frontend'
+tmux send-keys "cd ~/git/work/open3/open3-client/" c-m
+
+tmux new-window -t $session:3 -n 'contract'
+tmux send-keys "cd ~/git/work/open3/open3-contract/" c-m
+
+tmux new-window -t $session:4 -n 'open3'
+tmux send-keys "cd ~/git/work/open3/" c-m
+
+tmux select-window -t $SESSION:0
+tmux -2 attach-session -t $SESSION
