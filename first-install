@@ -51,3 +51,7 @@ brew install gpg
 brew install tldr
 
 brew install lsd
+
+# show hidden files
+defaults write com.apple.finder AppleShowAllFiles TRUE
+killall Finder

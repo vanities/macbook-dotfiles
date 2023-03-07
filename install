@@ -1,5 +1,4 @@
 #!/bin/bash
 
 set -ex
-var="./dotfiles/*"
-rsync --stats --progress -avr $var ~/
+cd dotfiles && rsync --stats --progress -avr .* ~/
