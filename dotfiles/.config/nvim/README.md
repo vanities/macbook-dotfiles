@@ -1,14 +1,4 @@
-# Neovim config
+# 💤 LazyVim
 
-Simple & lightweight Neovim config
-
-![Neovim on macOS](http://afshinm.name/wp-content/uploads/2017/08/Screen-Shot-2017-08-04-at-17.59.44.png)
-
-
-## Install
-
-Please read this page: http://afshinm.name/neovim/
-
-## License
-
-MIT
+A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
+Refer to the [documentation](https://lazyvim.github.io/installation) to get started.

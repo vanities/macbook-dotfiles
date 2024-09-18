@@ -4,16 +4,18 @@ set -ex
 
 rsync --stats --progress -avr ~/.config ./dotfiles
 rsync --stats --progress -avr ~/.oh-my-zsh ./dotfiles
-rsync --stats --progress -avr ~/.ssh ./dotfiles
+rsync --stats --progress -avr ~/.ssh/config ./dotfiles/.ssh/
 rsync --stats --progress -avr ~/.tmux* ./dotfiles
 rsync --stats --progress -avr ~/.vim ./dotfiles
+rsync --stats --progress -avr ~/.p10k.zsh ./dotfiles
 cp /usr/local/bin/tmux_* ./bin/
 cp ~/.gitconfig ./dotfiles/.gitconfig
 cp ~/.profile ./dotfiles/.profile
 cp ~/.tmux.conf* ./dotfiles/
 cp ~/.zshr* ./dotfiles/
 rm -rf ./dotfiles/.config/nvim/undodir
-rm -rf dotfiles/.ssh/*
+#rm -rf dotfiles/.ssh/*
 rm -rf dotfiles/.config/gcloud/*
+rm -rf dotfiles/.config/StardewValley
 rm -rf dotfiles/.config/coc/extensions/coc-yank-data/yank
 rm -rf dotfiles/.config/configstore/firebase-tools.json
